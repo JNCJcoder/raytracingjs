@@ -1,0 +1,18 @@
+{
+  "name": "raytracingjs",
+  "version": "1.0.0",
+  "description": "Basic Raytracing with Spheres in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack ./src/index.js --node-env development --watch --output-path ./",
+    "build": "webpack ./src/index.js --node-env production --output-path ./"
+  },
+  "keywords": [],
+  "author": "JNCJcoder",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
