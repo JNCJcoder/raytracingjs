@@ -72,7 +72,7 @@ class Sphere extends Object
     }
 
     /**
-     * 
+     * Get Normal
      * @param {Vector3} point 
      * @returns {Vector3}
      */
