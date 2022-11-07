@@ -50,6 +50,16 @@ class Sphere extends Object
         return result.t0 >= 0;
     }
 
+    /**
+     * Solve Quadratic
+     * @param {Number} a
+     * @param {Number} b
+     * @param {Number} c
+     * @param {Object} result
+     * @param {Number} result.t0
+     * @param {Number} result.t1
+     * @returns {Boolean}
+     */
     solveQuadratic(a, b, c, result)
     {
         const discriminant =  b * b - 4 * a * c;
