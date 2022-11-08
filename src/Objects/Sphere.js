@@ -25,7 +25,9 @@ class Sphere extends Object
      * Sphere Intersect
      * @param {Vector3} rayOrigin 
      * @param {Vector3} rayDirection 
-     * @param {object} result 
+     * @param {Object} result 
+     * @param {Number} result.t0
+     * @param {Number} result.t1
      * @returns {Boolean}
      */
     intersect(rayOrigin, rayDirection, result)
