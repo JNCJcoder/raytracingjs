@@ -98,7 +98,6 @@ class Vector3
 
     /**
      * Normalize Vector
-     * @return {void}
      */
     normalize()
     {
