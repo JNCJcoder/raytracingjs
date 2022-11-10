@@ -141,6 +141,9 @@ class Vector3
         return this;
     }
 
+    /**
+     * Negative Sign
+     */
     negativeSign()
     {
         this.x = -this.x;
